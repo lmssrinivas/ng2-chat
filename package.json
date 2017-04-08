@@ -1,0 +1,30 @@
+{
+  "name": "ng2-chat",
+  "version": "1.0.0",
+  "description": "Chat App with Angular2",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "socketio",
+    "angular2",
+    "chat"
+  ],
+  "author": "lmssrinivas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "passport": "^0.3.2",
+    "socket.io": "^1.4.8"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.0.1"
+  }
+}
